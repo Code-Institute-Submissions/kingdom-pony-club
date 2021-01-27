@@ -19,6 +19,10 @@
       "**/core.mongo*": true,
       "**/core.python*": true
    },
+<<<<<<< HEAD
 "emmet.extensionsPath": ".theia",
 "editor.autoSave": "on"
+=======
+   "emmet.extensionsPath": ".theia"
+>>>>>>> 5cd601217f70048971c5418b2d590994c2a4b538
 }

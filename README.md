@@ -1,6 +1,10 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+<<<<<<< HEAD
 Welcome unahayes,
+=======
+Welcome USER_NAME,
+>>>>>>> 5cd601217f70048971c5418b2d590994c2a4b538
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 

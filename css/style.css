@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    font: tahoma helvetica sans-serif;
+
+}
+#main-block{
+    background-color: darkgreen;
+    color: #ffffff;
+    border: 5px black solid;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    text-align: center;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box-1{
+    width: 80%;
+    margin: auto;
+}
+.box-2{
+    width: 60%;
+    margin: auto;
+}
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+}

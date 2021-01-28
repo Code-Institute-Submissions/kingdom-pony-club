@@ -5,6 +5,8 @@
     margin:0;
     padding:0;
     border:0;
+    background-image: url("/workspace/kingdom-pony-club/assets/images/micangie.jpg">);
+
 }
 body{
     font-family: "Yusei Magic";
@@ -14,14 +16,20 @@ body{
 #main-block{
     background-color: darkgreen;
     color: #ffffff;
+    font: Helvetica;
     border: 5px black solid;
-    letter-spacing: 0.2em;
-    word-spacing: 1em;
     text-align: center;
 }
 #logo{
     float: left;
-    font-size: 200%;
+    font-size: 300%;
+
+}
+h2{
+    font: Helvetica;
+    text-transform: uppercase;
+    letter-spacing: 4pm;
+    color: #555555;
 
 }
 #menu{
@@ -41,9 +49,39 @@ body{
     line-height: 75px;
     
 }
+#menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+.active{
+    border-bottom: 1px solid #777777;
+}
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url("/workspace/kingdom-pony-club/assets/images/micangie.jpg") no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes hero-zoom{
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1)
+
+    }
+}
 #horizontal{
     padding-left: 100px;
-    display: block;
+    display: inline-block;
+    text-align: right;
 }
 #vertical{
     float: left;
@@ -83,7 +121,7 @@ input{
     padding: 12px 20px;
     margin: 8px solid 0;
     box-sizing: border-box;
-    background: 
+    background: grey;
 }
 h2{
     font-family: Ubuntu;
@@ -92,7 +130,9 @@ h2{
     color: #555555;
 }
 #nav{
-
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
 }
 
 #photos{

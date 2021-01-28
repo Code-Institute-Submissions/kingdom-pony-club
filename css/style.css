@@ -1,4 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Yusei+Magic&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    font-family: "Yusei Magic";
+    color: #777777;
+
+}
 #main-block{
     background-color: darkgreen;
     color: #ffffff;
@@ -9,6 +21,25 @@
 }
 #logo{
     float: left;
+    font-size: 200%;
+
+}
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+#menu li{
+    float: right;
+    margin-right: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+#logo, #menu{
+    line-height: 75px;
+    
 }
 #horizontal{
     padding-left: 100px;
@@ -26,6 +57,7 @@
     padding: 15px;
     box-sizing: border-box;
 }
+
 .box-1{
     width: 80%;
     margin: auto;
@@ -52,4 +84,17 @@ input{
     margin: 8px solid 0;
     box-sizing: border-box;
     background: 
+}
+h2{
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    letter-spacing: 4px:
+    color: #555555;
+}
+#nav{
+
+}
+
+#photos{
+
 }

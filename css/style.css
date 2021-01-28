@@ -1,6 +1,3 @@
-<html>
-<head>
-<style>
 
 #main-block{
     background-color: darkgreen;
@@ -9,6 +6,17 @@
     letter-spacing: 0.2em;
     word-spacing: 1em;
     text-align: center;
+}
+#logo{
+    float: left;
+}
+#horizontal{
+    padding-left: 100px;
+    display: block;
+}
+#vertical{
+    float: left;
+    padding: 0px 30px 30px 30px;
 }
 #sidebar{
     float: right;
@@ -38,6 +46,3 @@
     padding: 10px;
     box-sizing: border-box;
 }
-</style>
-</head>
-</html>

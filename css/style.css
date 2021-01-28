@@ -1,9 +1,7 @@
-*{
-    margin:0;
-    padding:0;
-    font: tahoma helvetica sans-serif;
+<html>
+<head>
+<style>
 
-}
 #main-block{
     background-color: darkgreen;
     color: #ffffff;
@@ -40,3 +38,6 @@
     padding: 10px;
     box-sizing: border-box;
 }
+</style>
+</head>
+</html>

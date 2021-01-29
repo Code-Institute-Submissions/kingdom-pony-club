@@ -37,6 +37,10 @@ h2{
     list-style-type: none;
     letter-spacing: 4px;
 }
+#logo, #menu{
+    line-height: 75px;
+    
+}
 #menu li{
     float: right;
     margin-right: 30px;
@@ -45,10 +49,7 @@ h2{
     text-decoration: none;
     color: inherit;
 }
-#logo, #menu{
-    line-height: 75px;
-    
-}
+
 #menu a:hover{
     border-bottom: 1px solid #777777;
 }
@@ -68,6 +69,7 @@ h2{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 @keyframes hero-zoom{
     from{
@@ -78,6 +80,72 @@ h2{
 
     }
 }
+#cover-text, cover-text h2{
+    color: #ffffff;
+
+}
+
+#cover-text{
+    font-size: 80%;
+    font-family: Ubuntu;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 250px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(10, 288, 241, .664);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#club-ethos{
+    height: 600px;
+}
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+#right-about{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about{
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading{
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading{
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
 #horizontal{
     padding-left: 100px;
     display: inline-block;
@@ -123,18 +191,14 @@ input{
     box-sizing: border-box;
     background: grey;
 }
-h2{
+/*h2{
     font-family: Ubuntu;
     text-transform: uppercase;
     letter-spacing: 4px:
     color: #555555;
-}
+}*/
 #nav{
     background-color: darkgreen;
     color: white;
     width: 100%;
-}
-
-#photos{
-
 }

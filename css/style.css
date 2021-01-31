@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Yusei+Magic&display=swap');
 
 *{
+    font-size: 16px;
     margin:0;
     padding:0;
     border:0;
@@ -151,9 +152,9 @@ hr{
 .right-about-heading h2{
     text-align: right;
 }
-/*.right-about-heading p{
+.right-about-heading p{
     text-align: right;
-}
+}/*
 #welcome{
     margin: 20px 0;
     text-align: center;
@@ -232,10 +233,10 @@ footer{
 #photos img{
     width: 100%
 }
-@media screen and (max-width: 1393px){
+@media screen and (max-width: 1393px) {
     #club-ethos{
         width: 65%;
-        height: 1200px;
+        height: 1100px;
         margin: 0 auto;
     }
 
@@ -264,7 +265,8 @@ footer{
 hr {
     display: none;
 }
-@media screen and (max-width: 943px){
+}
+@media screen and (max-width: 943px) {
     #menu{
     clear: left;
     float: left;
@@ -272,6 +274,14 @@ hr {
     margin-bottom: 20px;
     line-height: 25px;   
 }
+#cover-image{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background: url("/workspace/kingdom-pony-club/assets/images/micangie.jpg") no-repeat;
+
+}
+
 #cover-text{
     left: 0px;
 }
@@ -292,13 +302,13 @@ hr {
 }
 .left-about-heading p, .right-about-heading p{
     text-align: center;
-    padding: 0 20px 0 20px;
+    padding: 0 20 0 20;
 
 }
 #photos{
     column-count: 3;
 }
-@media screen and (max-width: .800px){
+@media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }

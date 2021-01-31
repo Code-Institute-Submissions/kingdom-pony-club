@@ -1,49 +1,98 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 <<<<<<< HEAD
-Welcome unahayes,
-=======
-Welcome unahayes,
->>>>>>> 5cd601217f70048971c5418b2d590994c2a4b538
+# The Kingdom Pony Club Website
+ 
+## Overview
+ 
+### What is this website for?
+ 
+This is a website for parents and children to learn more about The Kingdom Pony Club
+ 
+### What does it do?
+ 
+This website has various pages for people to read information and look at some photos the show what The Kingdom Pony Club is all about. It introduces people to the “parent club” which is the Irish Pony Club
+ 
+### How does it work
+ 
+This website uses **HTML** to route viewers through the site and control which **CSS** is executed. The site is styled with **Bootstrap**. **Github** and **Gitpod**have been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://gitpod.io/#/workspace/kingdom-pony-club)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Features
+ 
+### Existing Features
+- Eye catching front page
+- Main image with some animation
+- Information page
+- Navigation bar with links to gallery and sign up page
+	-Gallery with lots of pictures of activities and participants
+- Sign up page with background image to encourage users to fill in form to sign up
+  for the newsletter
+- Submit button to send contact information on to club secretary
 
-## Gitpod Reminders
+### Features Left to Implement
+- Much fine tuning and styling left to do
+- Add video content to Gallery
+- Sidebar to link to Facebook Page
+- Another information page going into more detail and providing links to the IPC Facebook page and pointing directly to download links - detailing competition rules, tack sheets,entry forms and links to their payment page
+- Link to the Kingdom Pony Club “It’s Plain Sailing Page”, which is used for renewing membership, new membership, booking lessons and making secure payments using Stripe.
+- Page featuring famous former pony club members - Ruby Walsh featured in Gallery with some of The Kingdom members
+ 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+## Tech Used
 
-Another blue button should appear to click: *Open Browser*.
+### Some the tech used includes:
+- **HTML**, **CSS** 
+  - Base languages used to create website
+- [AngularJS](https://angularjs.org/)
+    - We use **AngularJS** to handle page routing and to build custom directives
+- [Bootstrap](http://getbootstrap.com/)
+    - We use **Bootstrap** to give our project a simple, responsive layout
+- [JQuery](https://jquery.com)
+    - Use **JQuery** for boostrap and displaying modal
+- [npm](https://www.npmjs.com/)
+    - We use **npm** to install **http-server** in order to view the site
+- [Bower](https://bower.io)
+    - Using **Bower** to manage package dependencies
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Testing
+- Prototype code was written and tested using jasmine
+- All code used on the site has been tested to ensure everything is working as expected
+- Site viewed and tested in the following browsers:
+  - Google Chrome
+  - Opera
+  - Microsoft Edge
+  - Mozilla Firefox
 
-A blue button should appear to click: *Make Public*,
+## Contributing
+ 
+### Getting the code up and running
+1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
+2. After you've that you'll need to make sure that you have **npm** installed
+  1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
+4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
+5. Once **http-server** is installed run ```http-server -c-1```
+6. The project will now run on [localhost](http://127.0.0.1:8080)
+7. Make changes to the code and if you think it belongs in here then just submit a pull request
 
-Another blue button should appear to click: *Open Browser*.
+## Credits
+The Code Institute - (https://www.thecodeinstitute.ie)
+Kevin Powell Youtube Channel (https://www.youtube.com/user/KepowOb)
+HTML in Easy Steps by Mike McGrath
+Teach yourself HTML, CSS and Javascript by Jennifer Kyrnin and Julie C. Meloni
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Media
+- The photos used in this site were obtained from The Kingdom Pony Club existing Facebook Page and members own private photos with permission
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Information
+- The information used to create this site was from a number of sources
+- The Kingdom Pony Club Facebook Page
+- The Irish Pony Club Website (https://www.irishponyclub.ie)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!

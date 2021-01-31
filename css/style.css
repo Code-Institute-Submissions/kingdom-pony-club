@@ -21,16 +21,11 @@ body{
 
 }
 #menu{
-    font-size: 110%;
+    font-size: 120%;
     list-style-type: none;
     letter-spacing: 4px;
 }
 
-#nav{
-    background-color: darkgreen;
-    color: white;
-    width: 100%;
-}
 #horizontal{
     padding-left: 100px;
     display: inline-block;
@@ -51,11 +46,11 @@ body{
     color: inherit;
 }
 
-#horizontal #menu a:hover{
-    border-bottom: 1px solid #777777;
+#horizontal #menu li:hover{
+    border-bottom: 3px solid darkgreen;
 }
 .active{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid darkgreen;
 }
 h2{
     font-size: 250%;
@@ -158,12 +153,12 @@ hr{
 }
 /*.right-about-heading p{
     text-align: right;
-}*/
+}
 #welcome{
     margin: 20px 0;
     text-align: center;
     font-size: 280%;
-}
+}*/
 #circle-container{
     width: 300px;
     height: 300px;
@@ -190,7 +185,7 @@ hr{
 }
 #times div{
     color: white;
-   /* font-size: 4px;*/
+    font-size: 4px;
     background-color: rgba(0,0,0,.1);
     width: 19%;
     height: 300px;
@@ -200,7 +195,12 @@ hr{
     margin: 2px;
 }
 #times h2{
-   /* font-size: 20px;*/
+    font-size: 25px;
+    color: #fafafa;
+
+}
+#times h3{
+    font-size: 18px;
     color: #fafafa;
 
 }
@@ -238,10 +238,7 @@ footer{
         height: 1200px;
         margin: 0 auto;
     }
-}#welcome{
-    padding: 30px 0;
-    margin-top: 0;
-}
+
 #left-about, #right-about {
     width: 100%;
     float: left;
@@ -368,47 +365,71 @@ hr {
 }
 
 
-/*
 #vertical{
     float: left;
     padding: 0px 30px 30px 30px;
 }
 
-*/
 
 .box-1{
-    width: 80%;
+    font-size: 110%;
+    width: 100%;
     margin: auto;
     padding: 20px;
+    clear: both;
 
 }
 .box-2{
-    width: 80%;
+    font-size: 100%;
+    width: 100%;
     margin: auto;
     padding: 20px;
+    clear: both;
 
 }
+.box-3{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    clear: both;
+}
 
-.block{
+/*.block{
     float: left;
     width: 33.3%;
     border: 1px solid #ccc;
     padding: 10px;
     box-sizing: border-box;
-}
-input{
+}*/
+.form-section input{
     width: 100%;
     padding: 12px 20px;
-    margin: 8px solid 0;
+    margin: 10px solid 0;
     box-sizing: border-box;
-    background: grey;
+    background: white;
 }
 .form-section h2{
     font-family: "Yusei+Magic";
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 4px:
-    color: #555555;
+    letter-spacing: 4px;
+    color: white;
 }
+.text-input:hover{
+    background-color: #63ebc2;
+}
+.form-section .join-button{
+    font-family: "Yusei+Magic";
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkgreen;
 
+}
+.form-section .join-button.join-button:hover{
+    background-color: #63ebc2;
+    color: darkgreen;
 }

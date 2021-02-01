@@ -82,7 +82,7 @@ h2{
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url("/workspace/kingdom-pony-club/assets/images/micangie.jpg") no-repeat center center;
+    background: url("/workspace/kingdom-pony-club/assets/images/642a7e12-dc70-496b-ad43-dd24cd7f9568.JPG") no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -191,7 +191,35 @@ hr{
     height: 100%;
     border-radius: 50%;
 }
-#times{
+
+
+.box-1{
+    font-size: 110%;
+    width: 90%;
+    margin: 30px;
+    padding: 20px;
+    clear: both;
+
+
+}
+.box-2{
+    font-size: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    clear: both;
+
+}
+.box-3{
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    clear: both;
+}
     background-image: url("/workspace/kingdom-pony-club/assets/images/aisdressage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -222,6 +250,12 @@ hr{
     color: #fafafa;
 
 }
+/*End of Lesson Times
+==================*/
+
+/*===start of footer
+==================*/
+
 footer{
     height: 150px;
 
@@ -240,6 +274,8 @@ footer{
     color: #777777;
 
 }
+/*=====End of Footer
+==================*/
 #photos{
     clear: both;
     line-height: 0;
@@ -250,94 +286,8 @@ footer{
 #photos img{
     width: 100%
 }
-@media screen and (max-width: 1393px) {
-    #club-ethos{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #welcome{
-        padding: 30px 0;
-        margin-top: 0;
-    }
-
-#left-about, #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-#center-about{
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-
-}
-hr{
-    display: none;
-
-}
-#times div {
-    width: 100%;
-    clear: both;
-    height: 150%;
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #fff;
-    padding: 0;
-
-}
-
-
-@media screen and (max-width: 943px) {
-    .menu{
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;   
-}
-/*
-#cover-image{
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    background: url("/workspace/kingdom-pony-club/assets/images/micangie.jpg") no-repeat;
-
-}
-*/
-#cover-text{
-    left: 0px;
-}
-#club-ethos{
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-
-}
-.left-about-heading .right-about-heading{
-    width: inherit;
-
-}
-.left-about-heading h2, .right-about-heading h2{
-    width: 100%;
-    text-align: center;
-
-}
-.left-about-heading p, .right-about-heading p{
-    text-align: center;
-    padding: 0 20px 0 20px;
-
-}
-#photos{
-    column-count: 3;
-}
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-}
-
+/* ======= form section
+====================*/
 .form-section{
     clear: left;
     background: url("/workspace/kingdom-pony-club/assets/images/tents.jpg");
@@ -397,40 +347,98 @@ hr{
 .join-button:hover{
     border-color: #f16c6b;
 }
+/*=end of form section
+====================*/
 
 
-#vertical{
+
+@media screen and (max-width: 1393px) {
+    #club-ethos{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome{
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+#left-about, #right-about {
+    width: 100%;
     float: left;
-    padding: 0px 30px 30px 30px;
+    padding: 0;
 }
-
-
-.box-1{
-    font-size: 110%;
-    width: 100%;
-    margin: 30px;
-    padding: 20px;
+#center-about{
     clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
 
 }
-.box-2{
-    font-size: 100%;
-    width: 100%;
-    margin: 30px;
-    padding: 20px;
-    clear: both;
+hr{
+    display: none;
 
 }
-.box-3{
-    font-size: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-    font-weight: bold;
+#times div {
     width: 100%;
-    margin: 30px;
-    padding: 10px;
     clear: both;
+    height: 150%;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fff;
+    padding: 0;
+
 }
+
+
+@media screen and (max-width: 943px) {
+    .menu{
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;   
+}
+
+#cover-image{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background: url("/workspace/kingdom-pony-club/assets/images/642a7e12-dc70-496b-ad43-dd24cd7f9568.JPGlub") no-repeat;
+}
+
+#cover-text{
+    left: 0px;
+}
+#club-ethos{
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+
+}
+.left-about-heading .right-about-heading{
+    width: inherit;
+
+}
+.left-about-heading h2, .right-about-heading h2{
+    width: 100%;
+    text-align: center;
+
+}
+.left-about-heading p, .right-about-heading p{
+    text-align: center;
+    padding: 0 20px 0 20px;
+
+}
+#photos{
+    column-count: 3;
+}
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
 
 .block{
     float: left;

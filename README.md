@@ -18,13 +18,7 @@ This website has various pages for people to read information and look at some p
 This website uses **HTML** to route viewers through the site and control which **CSS** is executed. The site is styled with **Bootstrap**. **Github** and **Gitpod**have been used to manage package dependencies for deployment of site on github pages. The site can be viewed [HERE](https://gitpod.io/#/workspace/kingdom-pony-club)
 
 ## Features
- 
-### Existing Features
-- Eye catching front page
-- Main image with some animation
-- Information page
-- Navigation bar with links to gallery and sign up page
-	-Gallery with lots of pictures of activities and participants
+-Gallery with lots of pictures of activities and participants
 - Sign up page with background image to encourage users to fill in form to sign up
   for the newsletter
 - Submit button to send contact information on to club secretary
@@ -41,6 +35,7 @@ This website uses **HTML** to route viewers through the site and control which *
 
 
 ## Tech Used
+
 
 ### Some the tech used includes:
 - **HTML**, **CSS** 

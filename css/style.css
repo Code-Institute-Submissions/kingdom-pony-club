@@ -82,7 +82,7 @@ h2{
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url("/workspace/kingdom-pony-club/assets/images/642a7e12-dc70-496b-ad43-dd24cd7f9568.JPG") no-repeat center center;
+    background: url("/assets/images/642a7e12-dc70-496b-ad43-dd24cd7f9568.JPG") no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -187,12 +187,12 @@ hr{
     margin: 0 auto;
 }
 #circle-cover-bg{
-    background: url("/workspace/kingdom-pony-club/assets/images/xcimage.jpg") no-repeat center center;
+    background: url("/assets/images/xcimage.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 #times {
-    background-image: url(/workspace/kingdom-pony-club/assets/images/aisdressage.jpg);
+    background-image: url(/assets/images/aisdressage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,7 +291,7 @@ footer{
 ====================*/
 .form-section{
     clear: left;
-    background: url("/workspace/kingdom-pony-club/assets/images/tents.jpg");
+    background: url("/assets/images/tents.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -353,7 +353,7 @@ footer{
 
 
 
-@media screen and (max-width: 1393px) {
+@media screen and (max-width: 1200px) {
     #club-ethos{
         width: 65%;
         height: 1200px;
@@ -405,7 +405,7 @@ hr{
     height: 500px;
     background-size: cover;
     background-position: center;
-    background: url("/workspace/kingdom-pony-club/assets/images/642a7e12-dc70-496b-ad43-dd24cd7f9568.JPGlub") no-repeat;
+    background: url("/assets/images/642a7e12-dc70-496b-ad43-dd24cd7f9568.JPGlub") no-repeat;
 }
 
 #cover-text{

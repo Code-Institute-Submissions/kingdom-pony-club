@@ -50,22 +50,24 @@ This website uses **HTML** to route viewers through the site and control which *
     - We use **npm** to install **http-server** in order to view the site
 - [Bower](https://bower.io)
     - Using **Bower** to manage package dependencies
+- Font Awesome (https://www.fontawesome.com) for icons
+
+
+
 
 ## Testing
-- Prototype code was written and tested using jasmine
-- All code used on the site has been tested to ensure everything is working as expected
+
+- Code used on the site has been tested to ensure everything is working as expected
 - Site viewed and tested in the following browsers:
   - Google Chrome
-  - Opera
   - Microsoft Edge
-  - Mozilla Firefox
-
+  
 ## Contributing
  
 ### Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
 2. After you've that you'll need to make sure that you have **npm** installed
-  1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
+3. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
 4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
 5. Once **http-server** is installed run ```http-server -c-1```
 6. The project will now run on [localhost](http://127.0.0.1:8080)
@@ -81,7 +83,9 @@ Teach yourself HTML, CSS and Javascript by Jennifer Kyrnin and Julie C. Meloni
 
 
 ### Media
-- The photos used in this site were obtained from The Kingdom Pony Club existing Facebook Page and members own private photos with permission
+- The photos used in this site were obtained from The Kingdom Pony Club
+ existing Facebook Page and members own private photos with permission received
+ for use.
 
 
 

@@ -34,8 +34,10 @@ This website uses **HTML** to route viewers through the site and control which *
 
 
 
-## Tech Used
-
+## Mockup
+assets/images/IMG-7594.jpg
+assets/images/IMG-7595.jpg
+assets/images/IMG-7596.jpg
 
 ### Some the tech used includes:
 - **HTML**, **CSS** 
